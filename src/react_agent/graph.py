@@ -21,7 +21,7 @@ graph = Neo4jGraph(
     url="bolt://207.154.238.179:7687",
     username="neo4j",
     password="securePass123",
-    database="english"
+    database="englishdata"
 )
 
 # Prompt Template for Cypher generation
