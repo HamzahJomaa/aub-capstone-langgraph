@@ -1,0 +1,20 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/entity/SubSaharanAfricaAgriculturalProductivity> 
+    rdf:type schema:Thing ;
+    rdfs:label "Sub-Saharan Africa Agricultural Productivity" ;
+    rdfs:comment "A measure of the efficiency and output of agricultural practices in the Sub-Saharan Africa region." ;
+    foaf:name "Sub-Saharan Africa Agricultural Productivity" ;
+    schema:location "Sub-Saharan Africa" ;
+    foaf:homepage <http://example.org/sub-saharan-africa-agriculture> ;
+    foaf:isPrimaryTopicOf <http://example.org/articles/sub-saharan-agriculture-productivity> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q123456> ;
+    owl:sameAs <http://dbpedia.org/resource/Sub-Saharan_Africa_agriculture> ;
+    schema:foundingDate "2023-01-01"^^xsd:date .

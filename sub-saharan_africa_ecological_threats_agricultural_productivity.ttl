@@ -1,0 +1,20 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/entity/SubSaharanAfricaEcologicalThreatsAgriculturalProductivity> 
+    rdf:type schema:Thing ;
+    rdfs:label "Ecological Threats to Agricultural Productivity in Sub-Saharan Africa" ;
+    rdfs:comment "This entity encompasses the various ecological threats that impact agricultural productivity in the Sub-Saharan Africa region, including climate change, deforestation, soil degradation, and water scarcity." ;
+    foaf:name "Sub-Saharan Africa Ecological Threats to Agriculture" ;
+    schema:location "Sub-Saharan Africa" ;
+    foaf:homepage <http://example.org/articles/sub-saharan-africa-ecological-threats> ;
+    foaf:isPrimaryTopicOf <http://example.org/articles/sub-saharan-africa-ecological-threats> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q123456> ;
+    owl:sameAs <http://dbpedia.org/resource/Sub-Saharan_Africa> ;
+    schema:dateCreated "2023-10-01"^^xsd:date .

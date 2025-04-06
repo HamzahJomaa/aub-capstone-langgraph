@@ -1,0 +1,18 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/SubSaharanAfrica> a schema:Region ;
+    rdfs:label "Sub-Saharan Africa" ;
+    rdfs:comment "Sub-Saharan Africa is the area of the African continent that lies south of the Sahara Desert." ;
+    foaf:name "Sub-Saharan Africa" ;
+    schema:location "Africa" ;
+    foaf:homepage <https://en.wikipedia.org/wiki/Sub-Saharan_Africa> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sub-Saharan_Africa> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q30239> ;
+    owl:sameAs <http://dbpedia.org/resource/Sub_Saharan_Africa> .

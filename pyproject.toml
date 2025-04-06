@@ -19,7 +19,9 @@ dependencies = [
     "tavily-python>=0.4.0",
     "pandas",
     "langchain-neo4j",
-    "langgraph-supervisor"
+    "langgraph-supervisor",
+    "rdflib",
+    "rdflib_neo4j"
 ]
 
 
@@ -31,10 +33,11 @@ requires = ["setuptools>=73.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["langgraph.templates.react_agent", "react_agent"]
+packages = ["langgraph.templates.react_agent", "react_agent", "agents"]
 [tool.setuptools.package-dir]
 "langgraph.templates.react_agent" = "src/react_agent"
 "react_agent" = "src/react_agent"
+"agents" = "src/react_agent/agents"
 
 
 [tool.setuptools.package-data]

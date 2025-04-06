@@ -1,0 +1,20 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/entities/SubSaharanAfricaAgriculturalProductivityChallenges> 
+    rdf:type schema:Thing ;
+    rdfs:label "Sub-Saharan Africa Agricultural Productivity Challenges" ;
+    rdfs:comment "Challenges faced by agricultural productivity in Sub-Saharan Africa, including issues such as climate change, soil degradation, and access to technology." ;
+    foaf:name "Sub-Saharan Africa Agricultural Productivity Challenges" ;
+    schema:location "Sub-Saharan Africa" ;
+    foaf:homepage <http://example.org/articles/sub-saharan-africa-agricultural-productivity> ;
+    foaf:isPrimaryTopicOf <http://example.org/articles/sub-saharan-africa-agricultural-productivity> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q123456> ;
+    owl:sameAs <http://dbpedia.org/resource/Agriculture_in_Sub-Saharan_Africa> ;
+    dcterms:created "2023-10-01"^^xsd:date .
