@@ -56,7 +56,7 @@ llm = ChatOpenAI(model='gpt-4o-mini', temperature=0)
 
 # Create supervisor workflow
 workflow = create_supervisor(
-    [kg_agent],
+    [kg_agent, rdf_agent, reasoning_agent],
     model=llm,
     prompt=system_prompt
 )
