@@ -51,6 +51,7 @@ Task: Generate a Cypher query to retrieve data from a graph database.
 - Try to use the word more in more than one shape in order to search for it.
 - Don't use labels for nodes and relationships that are not available.
 - Dont use ands for name searching
+- Dont use node labels, as some entities might be in the wrong labels
 
 
 ---
