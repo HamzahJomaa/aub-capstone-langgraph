@@ -75,6 +75,7 @@ graph_chain = GraphCypherQAChain.from_llm(
     verbose=True,
     return_direct=True,
     return_intermediate_steps=True,
+    top_k=20
 )
 
 

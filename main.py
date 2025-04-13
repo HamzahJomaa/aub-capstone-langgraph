@@ -69,7 +69,7 @@ async def chat_stream(message, thread_id, history):
 with gr.Blocks() as demo:
     with gr.Row():
         with gr.Column():
-            gr.HTML('<iframe src="https://46.101.200.219" width="100%" style="border:none;height:80vh; margin:0; padding:0; display:block;"></iframe>')
+            gr.HTML('<iframe src="https://46.101.200.219" width="100%" style="border:none;height:80vh; background: white; margin:0; padding:0; display:block;"></iframe>')
         
         with gr.Column():
             gr.Markdown("## 🤖 LangGraph Assistant with Streaming & Tools")
